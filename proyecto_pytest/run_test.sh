@@ -11,4 +11,8 @@ pip install -r requirements.txt
 echo "corriendo pruebas con pytest"
 pytest test/ --junitxml=reports/test-results.xml --html=reports/test-results.html --self-contained-html
 
-echo "pruebas finalizadas resultados en reports
+echo "pruebas finalizadas resultados en reports"
+
+source venv/bin/deactivate
+
+rm -rf venv
