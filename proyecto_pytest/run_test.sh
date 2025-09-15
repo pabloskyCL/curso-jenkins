@@ -18,6 +18,6 @@ pytest test/ --junitxml=reports/test-results.xml --html=reports/test-results.htm
 
 echo " pruebas finalizadas resultados en reports"
 
-source venv/bin/deactivate
+deactivate
 
 rm -rf venv
